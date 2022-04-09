@@ -12,7 +12,7 @@ void PrintArray(int[,,] arr)
                 //Console.WriteLine("("+ i + "," + j + "," + k + "): " + arr[i,j,k] );
                 Console.Write($"({i}, {j}, {k}) {arr[i, j, k]} \t");
             }
-            Console.WriteLine(" ");
+            //Console.WriteLine(" ");
         }  
         Console.WriteLine("\n");
     } 	
