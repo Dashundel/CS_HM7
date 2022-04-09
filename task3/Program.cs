@@ -9,9 +9,12 @@ void PrintArray(int[,,] arr)
         {
             for(int k = 0; k < arr.GetLength(2); k++)
             {
-                Console.WriteLine("("+ i + "," + j + "," + k + "): " + arr[i,j,k] );
+                //Console.WriteLine("("+ i + "," + j + "," + k + "): " + arr[i,j,k] );
+                Console.Write($"({i}, {j}, {k}) {arr[i, j, k]} \t");
             }
+            Console.WriteLine(" ");
         }  
+        Console.WriteLine("\n");
     } 	
 }
 
